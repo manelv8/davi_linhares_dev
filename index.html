@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.scss">
+    <link rel="stylesheet" href="/src/styles/all.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="menu-container">
+        <nav >
+          <span class="logo"> DL.</span>
+          <button class="menu-icon" id="menu-icon"><i class="fa fa-bars"></i></button>
+          <ul class="menu-actions" id="menu-actions">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <!-- <li><a href="#">section 3</a></li> -->
+          </ul>
+        </nav>
+      </div>
+
+      <header>
+        <div class="header_avatar_container">
+          <img src="/src/assets/avatar.jpeg" alt="foto avatar">
+        </div>
+        <div class="header_full_title">
+          <span>Davi Linhares</span>
+          <span>Software Developer</span>
+        </div>  
+        <div class="header_social_container">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitch"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </header>
+
+      <main>
+        <section id="sobre">
+          <h2>Sobre</h2>
+          <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, inventore nisi atque vel officia ipsa unde laudantium qui reiciendis soluta eos, illum deserunt, recusandae porro iure. Provident non vero quia.
+          </article>
+        </section>
+
+        <section id="projetos">
+          <h2> Projetos </h2>
+          <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quibusdam, labore ipsum error soluta in tempora aut animi earum explicabo ratione, recusandae dolorum reiciendis deleniti eaque. Aut voluptas voluptatem quidem.
+          </article>
+        </section>
+<!-- 
+        <section>
+          contato
+        </section> -->
+
+      </main>
+
+      <footer>
+        Davi Linhares 2021
+      </footer>
+
+    </div>
+    <!-- <script type="module" src="/src/main.ts"></script> -->
+    <script type="module" src="/src/menu.ts"></script>
+  </body>
+</html>
