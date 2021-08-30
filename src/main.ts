@@ -7,7 +7,7 @@
 //   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 // `
 // import { tns } from "tiny-slider"
-import { tns } from 'tiny-slider/src/tiny-slider';
+import { tns } from 'tiny-slider/src/tiny-slider.js';
 
 tns({
   container: '.my-slider',
