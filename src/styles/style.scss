@@ -54,8 +54,24 @@
 }
 
 .main-section{
-  margin: 1rem
+  margin: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+  }
+  .text{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: var(--gray-100);
+    text-indent: 1rem;
+    margin-bottom: 3rem;
+  }
 }
+
 .my-slider{
   margin: 2rem 0;
   .item{
